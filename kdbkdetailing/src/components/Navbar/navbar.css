@@ -1,0 +1,36 @@
+.container{
+  display: flex;
+  height: 90px;
+  width: 100%;
+  background-color: white;
+}
+
+.nav-div-1{
+  width: 30%;
+  background-color: black;
+}
+
+.nav-div-2{
+  width: 0;
+	height: 0;
+	border-top: 90px solid black;
+	border-right: 140px solid transparent;
+}
+
+.nav-div-3{
+  display: flex;
+  min-width: calc(70% - 90px);
+}
+
+ol{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+li{
+  font-size: 20px;
+  list-style: none;
+  cursor: pointer;
+}
