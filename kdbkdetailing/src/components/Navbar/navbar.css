@@ -1,6 +1,9 @@
 .container{
+  position: sticky;
+  top: 0;
+  right: 0;
   display: flex;
-  height: 90px;
+  height: 80px;
   width: 100%;
   background-color: white;
 }
@@ -13,17 +16,19 @@
 .nav-div-2{
   width: 0;
 	height: 0;
-	border-top: 90px solid black;
+	border-top: 80px solid black;
 	border-right: 140px solid transparent;
 }
 
 .nav-div-3{
   display: flex;
-  min-width: calc(70% - 90px);
+  justify-content: center;
+  align-items: center;
+  min-width: calc(70% - 80px);
 }
 
 ol{
-  width: 100%;
+  width: 80%;
   display: flex;
   justify-content: space-around;
   align-items: center;
