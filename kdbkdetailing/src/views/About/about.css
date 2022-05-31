@@ -15,5 +15,14 @@
 }
 
 .content-about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 40%;
+  padding: 30px 40px;
+}
+
+h1{
+  font-size: 48px;
+  font-weight: normal;
 }
