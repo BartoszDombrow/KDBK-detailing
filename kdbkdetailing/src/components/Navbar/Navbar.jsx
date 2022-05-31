@@ -1,5 +1,6 @@
-import React from "react"
-import './navbar.css'
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import './navbar.css';
 
 function Navbar() {
   return (
@@ -8,15 +9,35 @@ function Navbar() {
       <div className="nav-div-2"></div>
       <div className="nav-div-3">
         <ol>
-          <li>O nas</li>
-          <li>Oferta</li>
-          <li>Cennik</li>
-          <li>Realizacje</li>
-          <li>Kontakt</li>
+          <li>
+            <NavLink to="/" className="link">
+              O nas
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/oferta" className="link">
+              Oferta
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/cennik" className="link">
+              Cennik
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/realizacje" className="link">
+              Realizacje
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/kontakt" className="link">
+              Kontakt
+            </NavLink>
+          </li>
         </ol>
       </div>
     </div>
-  )
+  );
 }
 
-export default Navbar 
+export default Navbar;
