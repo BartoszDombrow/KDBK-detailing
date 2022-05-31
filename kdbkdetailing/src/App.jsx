@@ -1,16 +1,23 @@
-import React from 'react'
-import Navbar from './components/Navbar/Navbar'
-import List from './components/List/List'
-import About from './views/About/About'
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Navbar from './components/Navbar/Navbar';
+import List from './components/List/List';
+import About from './views/About/About';
 
 function App() {
   return (
-    <>
-      <Navbar/>
-      <About/>
-      <List></List>
-    </>
-  )
+    <Router>
+      <Navbar />
+      <Switch>
+        <Route path="/">
+          <About />
+        </Route>
+        <Route path="/offer">
+          <List />
+        </Route>
+      </Switch>
+    </Router>
+  );
 }
 
-export default App
+export default App;
