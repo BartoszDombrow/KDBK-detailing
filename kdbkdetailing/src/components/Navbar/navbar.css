@@ -24,7 +24,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: calc(70% - 80px);
+  width: calc(70% - 80px);
 }
 
 ol {
