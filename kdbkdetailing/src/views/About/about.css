@@ -1,0 +1,19 @@
+.container-about {
+  display: flex;
+  justify-content: flex-end;
+  height: calc(100vh - 80px);
+  width: 100%;
+
+}
+
+.image-about{
+  width: 60%;
+  background-image: url('../../assets/images/bmw.jpg');
+  background-position: -620px;
+  background-repeat: no-repeat;
+ 
+}
+
+.content-about{
+  width: 40%;
+}
