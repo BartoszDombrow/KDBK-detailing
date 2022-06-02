@@ -3,18 +3,16 @@
   justify-content: flex-end;
   height: calc(100vh - 80px);
   width: 100%;
-
 }
 
-.image-about{
+.image-about {
   width: 60%;
   background-image: url('../../assets/images/bmw.jpg');
   background-position: -620px;
   background-repeat: no-repeat;
- 
 }
 
-.content-about{
+.content-about {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,7 +20,20 @@
   padding: 30px 40px;
 }
 
-h1{
+h1 {
   font-size: 48px;
   font-weight: normal;
 }
+
+@media (max-width: 376px) {
+  .image-about {
+    display: none;
+  }
+
+  .content-about {
+    width: 100%;
+  }
+  h1 {
+    align-self: flex-end;
+  }
+} ;

@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar';
 import List from './views/List/List';
 import About from './views/About/About';
 import Offer from './views/Offer/Offer';
+import Contact from './views/Contact/Contact';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<About />} />
         <Route path="/cennik" element={<List />} />
         <Route path="oferta" element={<Offer />} />
+        <Route path="kontakt" element={<Contact />} />
       </Routes>
     </Router>
   );
