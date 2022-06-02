@@ -25,7 +25,7 @@ h1 {
   font-weight: normal;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 1080px) {
   .image-about {
     display: none;
   }

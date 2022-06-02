@@ -59,7 +59,7 @@ li {
   border-bottom: 1px solid black;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 1080px) {
   .nav-div-1 {
     height: 56px;
     width: 100%;

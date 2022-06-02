@@ -5,7 +5,7 @@ const List = () => {
   const items = [
     {
       title: 'Mycie klasyczne',
-      price: '100/150/200 zł',
+      price: 'Od 100 zł',
       key: 'title',
       elements: [
         {
@@ -28,7 +28,7 @@ const List = () => {
     },
     {
       title: 'Mycie exclusive',
-      price: '150/200/250 zł',
+      price: 'Od 150 zł',
       key: 'title',
       elements: [
         {
@@ -63,7 +63,7 @@ const List = () => {
     },
     {
       title: 'Mycie premium',
-      price: '200/250/300 zł',
+      price: 'Od 200 zł',
       key: 'title',
       elements: [
         {
@@ -110,8 +110,8 @@ const List = () => {
     },
     {
       title: 'Mycie detailingowe',
-      price: '300/350/400 zł',
-      key: 'test',
+      price: 'Od 300 zł',
+      key: 'text',
       elements: [
         {
           text: '- mycie płynem wstępnym oraz gąbką',
@@ -169,7 +169,7 @@ const List = () => {
     },
     {
       title: 'Przygotowanie pojazdu do sprzedaży',
-      price: '200-500zł',
+      price: 'Od 200 zł',
       key: 'title',
       elements: [
         {
@@ -221,7 +221,7 @@ const List = () => {
     {
       title: 'Pranie standard',
       key: 'title',
-      price: '100 zł',
+      price: 'Od 100 zł',
       elements: [
         {
           text: '- Pranie fotela kierowcy',
@@ -240,7 +240,7 @@ const List = () => {
     {
       title: 'Pranie premium',
       key: 'title',
-      price: '150 zł',
+      price: 'Od 150 zł',
       elements: [
         {
           text: '- Pranie fotela kierowcy',
@@ -263,7 +263,7 @@ const List = () => {
     {
       title: 'Pranie exclusive',
       key: 'title',
-      price: '200 zł',
+      price: 'Od 200 zł',
       elements: [
         {
           text: '- Pranie fotela kierowcy',

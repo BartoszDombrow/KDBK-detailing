@@ -10,7 +10,7 @@
   width: 60%;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 1080px) {
   .contact-map {
     height: 400px;
     width: 80%;
