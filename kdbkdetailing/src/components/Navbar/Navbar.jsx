@@ -5,33 +5,33 @@ import './navbar.css';
 function Navbar() {
   return (
     <div className="container">
-      <div className="nav-div-1"></div>
+      <div className="nav-div-1">KDBK</div>
       <div className="nav-div-2"></div>
       <div className="nav-div-3">
         <ol>
           <li>
             <NavLink to="/" className="link">
-              O nas
+              <p>O nas</p>
             </NavLink>
           </li>
           <li>
             <NavLink to="/oferta" className="link">
-              Oferta
+              <p>Oferta</p>
             </NavLink>
           </li>
           <li>
             <NavLink to="/cennik" className="link">
-              Cennik
+              <p>Cennik</p>
             </NavLink>
           </li>
           <li>
             <NavLink to="/realizacje" className="link">
-              Realizacje
+              <p>Realizacje</p>
             </NavLink>
           </li>
           <li>
             <NavLink to="/kontakt" className="link">
-              Kontakt
+              <p>Kontakt</p>
             </NavLink>
           </li>
         </ol>
