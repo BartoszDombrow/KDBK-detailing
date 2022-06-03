@@ -9,13 +9,23 @@ function Photos() {
       </div>
       <div className="photos-content">
         <div className="photos-content-div">
-          <div className="photos-content-div-popup"></div>
+          <div className="photos-content-div-overflow"></div>
         </div>
-        <div className="photos-content-div"></div>
-        <div className="photos-content-div"></div>
-        <div className="photos-content-div"></div>
-        <div className="photos-content-div"></div>
-        <div className="photos-content-div"></div>
+        <div className="photos-content-div">
+          <div className="photos-content-div-overflow"></div>
+        </div>
+        <div className="photos-content-div">
+          <div className="photos-content-div-overflow"></div>
+        </div>
+        <div className="photos-content-div">
+          <div className="photos-content-div-overflow"></div>
+        </div>
+        <div className="photos-content-div">
+          <div className="photos-content-div-overflow"></div>
+        </div>
+        <div className="photos-content-div">
+          <div className="photos-content-div-overflow"></div>
+        </div>
       </div>
     </div>
   );
