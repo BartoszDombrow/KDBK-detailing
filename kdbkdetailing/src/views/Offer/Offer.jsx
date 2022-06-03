@@ -5,7 +5,7 @@ function Offer() {
   return (
     <div className="offer-container">
       <div className="offer-header">
-        <h1>Co oferujemy?</h1>
+        <h1 className="header">Co oferujemy?</h1>
       </div>
       <div className="offer-content">
         <div className="offer-content-div"></div>

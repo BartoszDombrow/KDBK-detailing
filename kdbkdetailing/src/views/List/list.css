@@ -14,6 +14,7 @@
   letter-spacing: 1px;
   text-align: center;
   padding: 20px 30px;
+  list-style-type: none;
 }
 
 .list-container:nth-child(4) {

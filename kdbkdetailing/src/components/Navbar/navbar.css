@@ -32,6 +32,7 @@
 .small-text {
   font-size: 10px;
   letter-spacing: 8px;
+  font-weight: lighter;
 }
 
 .nav-div-2 {
@@ -39,6 +40,7 @@
   height: 0;
   border-top: 80px solid #252627;
   border-right: 140px solid transparent;
+  border-bottom: 0.1px solid #EEF0F2;
 }
 
 .nav-div-3 {
@@ -47,6 +49,7 @@
   align-items: center;
   width: calc(70% - 80px);
   font-size: 36px;
+
 }
 
 ol {
@@ -97,6 +100,10 @@ ol {
 }
 
 @media (max-width: 1080px) {
+  .container {
+    height: 56px;
+  }
+
   .nav-div-1 {
     height: 56px;
     width: 100%;
