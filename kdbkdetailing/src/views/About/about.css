@@ -22,6 +22,10 @@
   padding: 30px 40px;
 }
 
+.content-about > p {
+  width: 80%;
+}
+
 .title-header {
   font-size: 48px;
   letter-spacing: 2px;
