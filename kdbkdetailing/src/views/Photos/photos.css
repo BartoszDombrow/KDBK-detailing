@@ -76,3 +76,19 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.photos-content-div:nth-child(2) {
+  background-image: url(../../assets/images/passat-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -150px;
+}
+
+@media (max-width: 1080px) {
+  .photos-content {
+    flex-direction: column;
+  }
+  .photos-content-div {
+    width: 90%;
+  }
+}

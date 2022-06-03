@@ -14,18 +14,6 @@ function Photos() {
         <div className="photos-content-div">
           <div className="photos-content-div-overflow"></div>
         </div>
-        <div className="photos-content-div">
-          <div className="photos-content-div-overflow"></div>
-        </div>
-        <div className="photos-content-div">
-          <div className="photos-content-div-overflow"></div>
-        </div>
-        <div className="photos-content-div">
-          <div className="photos-content-div-overflow"></div>
-        </div>
-        <div className="photos-content-div">
-          <div className="photos-content-div-overflow"></div>
-        </div>
       </div>
     </div>
   );

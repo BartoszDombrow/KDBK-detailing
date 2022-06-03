@@ -36,3 +36,45 @@
   padding: 10px 5px;
   border: 1px solid black;
 }
+
+.offer-content-div:nth-child(1) {
+  background-image: url(../../assets/images/mycie.jpg);
+  background-size: cover;
+}
+
+.offer-content-div:nth-child(2) {
+  background-image: url(../../assets/images/korekta.jpg);
+  background-size: cover;
+}
+
+.offer-content-div:nth-child(3) {
+  background-image: url(../../assets/images/woskowanie.jpg);
+  background-size: cover;
+}
+
+.offer-content-div:nth-child(4) {
+  background-image: url(../../assets/images/pranie.jpg);
+  background-size: cover;
+}
+
+.offer-content-div:nth-child(5) {
+  background-image: url(../../assets/images/skora.jpg);
+  background-size: cover;
+}
+
+.offer-content-div:nth-child(6) {
+  background-image: url(../../assets/images/reflekory.jpg);
+  background-size: cover;
+}
+
+@media (max-width: 1080px) {
+  .offer-content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .offer-content-div {
+    width: 80%;
+  }
+}
