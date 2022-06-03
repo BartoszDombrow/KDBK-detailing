@@ -4,12 +4,13 @@
   margin: 40px auto;
   justify-content: center;
   align-items: center;
-  width: 70%;
+  width: 90%;
   padding: 40px;
   position: relative;
 }
 
 .contact-div > h1 {
+  color: #252627;
   padding: 20px;
 }
 
@@ -52,9 +53,22 @@
   font-size: 30px;
 }
 
+a {
+  text-decoration: none;
+}
+
 @media (max-width: 1080px) {
+  .contact-div {
+    padding: 10px 5px;
+  }
+  .contact-list {
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
   .contact-map {
-    height: 400px;
-    width: 80%;
+    height: 300px;
+    width: 95%;
+    padding: 20px;
   }
 } ;

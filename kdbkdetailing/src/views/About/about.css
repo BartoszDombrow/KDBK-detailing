@@ -4,7 +4,6 @@
   height: calc(100vh - 80px);
   width: 100%;
   color: #252627;
-  background-color: #eef0f2;
 }
 
 .image-about {
@@ -20,6 +19,7 @@
   flex-direction: column;
   width: 40%;
   padding: 30px 40px;
+  background-color: #eef0f2;
 }
 
 .content-about > p {
@@ -46,6 +46,20 @@
   }
 
   .content-about {
+    min-height: 120vh;
     width: 100%;
+  }
+
+  .about-us {
+    font-size: 18px;
+  }
+  .about-us:last-child {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 376px) {
+  .about-us {
+    font-size: 12px;
   }
 } ;

@@ -108,4 +108,7 @@
   .offer-content-div {
     width: 100%;
   }
+  .offer-p {
+    font-size: 18px;
+  }
 }

@@ -4,7 +4,6 @@
   min-height: calc(100vh - 80px);
   width: 100%;
   padding: 60px 40px;
-  /* background-color: black; */
 }
 
 .photos-header {
@@ -100,5 +99,15 @@
   }
   .photos-content-div {
     width: 90%;
+  }
+  .photos-content-p {
+    font-size: 12px;
+  }
+  .photos-content-header {
+    font-size: 18px;
+  }
+
+  .photos-container {
+    padding: 10px 5px;
   }
 }
