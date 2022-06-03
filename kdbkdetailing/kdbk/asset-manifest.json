@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8a27916d.css",
+    "main.js": "/static/js/main.50ffe509.js",
+    "static/media/jag-backround.jpg": "/static/media/jag-backround.d45f8a59df600927cef0.jpg",
+    "static/media/passat-background.jpg": "/static/media/passat-background.d2d47040f7df2f9232db.jpg",
+    "static/media/bmw.jpg": "/static/media/bmw.86f2743b4669aba378dd.jpg",
+    "static/media/reflekory.jpg": "/static/media/reflekory.4d97ce6eb1f03f357a35.jpg",
+    "static/media/mycie.jpg": "/static/media/mycie.cbe9a5c1d468205e36c5.jpg",
+    "static/media/korekta.jpg": "/static/media/korekta.8509ad6fc0cd5e33834d.jpg",
+    "static/media/woskowanie.jpg": "/static/media/woskowanie.7a7ba8445e589b06682d.jpg",
+    "static/media/pranie.jpg": "/static/media/pranie.3f4e183fea41ebbc8d8c.jpg",
+    "static/media/skora.jpg": "/static/media/skora.a5d530d9141ddacb1f9c.jpg",
+    "index.html": "/index.html",
+    "main.8a27916d.css.map": "/static/css/main.8a27916d.css.map",
+    "main.50ffe509.js.map": "/static/js/main.50ffe509.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a27916d.css",
+    "static/js/main.50ffe509.js"
+  ]
+}
