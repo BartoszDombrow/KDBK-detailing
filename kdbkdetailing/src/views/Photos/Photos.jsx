@@ -9,22 +9,16 @@ function Photos() {
       </div>
       <div className="photos-content">
         <div className="photos-content-div">
-          <div className="photos-content-div-overflow"></div>
+          <div className="photos-content-div-overflow">
+            <h2 className="photos-content-header">Jaguar XE R-Sport</h2>
+            <p className="photos-content-p">Samochód po usłudze Mycie Exclusive</p>
+          </div>
         </div>
         <div className="photos-content-div">
-          <div className="photos-content-div-overflow"></div>
-        </div>
-        <div className="photos-content-div">
-          <div className="photos-content-div-overflow"></div>
-        </div>
-        <div className="photos-content-div">
-          <div className="photos-content-div-overflow"></div>
-        </div>
-        <div className="photos-content-div">
-          <div className="photos-content-div-overflow"></div>
-        </div>
-        <div className="photos-content-div">
-          <div className="photos-content-div-overflow"></div>
+          <div className="photos-content-div-overflow">
+            <h2 className="photos-content-header">VW Passat</h2>
+            <p className="photos-content-p">Samochód po usłudze Mycie Klasyczne</p>
+          </div>
         </div>
       </div>
     </div>
