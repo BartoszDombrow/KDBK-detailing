@@ -1,37 +1,43 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './navbar.css';
+import Logo from '../../../src/assets/images/white_logo_transparent_background.png';
 
 function Navbar() {
   return (
     <div className="container">
-      <div className="nav-div-1">KDBK</div>
+      <div className="nav-div-1">
+        <div className="logo">
+          <p>KDBK</p>
+          <span className='small-text'>DETAILING</span>
+        </div>
+      </div>
       <div className="nav-div-2"></div>
       <div className="nav-div-3">
         <ol>
-          <li>
+          <li className='nav-li'>
             <NavLink to="/" className="link">
-              <p>O nas</p>
+              O nas
             </NavLink>
           </li>
-          <li>
+          <li className='nav-li'>
             <NavLink to="/oferta" className="link">
-              <p>Oferta</p>
+              Oferta
             </NavLink>
           </li>
-          <li>
+          <li className='nav-li'>
             <NavLink to="/cennik" className="link">
-              <p>Cennik</p>
+              Cennik
             </NavLink>
           </li>
-          <li>
+          <li className='nav-li'>
             <NavLink to="/realizacje" className="link">
-              <p>Realizacje</p>
+              Realizacje
             </NavLink>
           </li>
-          <li>
+          <li className='nav-li'>
             <NavLink to="/kontakt" className="link">
-              <p>Kontakt</p>
+              Kontakt
             </NavLink>
           </li>
         </ol>
