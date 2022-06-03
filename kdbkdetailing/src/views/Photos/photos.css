@@ -30,15 +30,46 @@
 }
 
 .photos-content-div {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
   width: calc(33% - 12px);
   height: 400px;
   margin: 6px;
-  padding: 10px 5px;
+  padding: 10px 0;
   border: 1px solid black;
+  opacity: 1;
+  overflow: hidden;
+  transition: 0.6s all ease-in-out;
 }
 
+.photos-content-div-popup {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 50%;
+  height: 100%;
+  background-color: white;
+}
+
+.photos-content-div:hover .photos-content-div-popup {
+  transform: translateX(-100%);
+}
+
+.photos-p {
+  display: none;
+  font-size: 48px;
+}
+
+.photos-content-div:hover {
+  transition: 0.7s ease-in-out;
+}
+.photos-content-div:hover .photos-p {
+  display: inline;
+}
 .photos-content-div:nth-child(1) {
   background-image: url(../../assets/images/jag-backround.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }

@@ -8,7 +8,9 @@ function Photos() {
         <h1 className="header">Nasze realizacje</h1>
       </div>
       <div className="photos-content">
-        <div className="photos-content-div"></div>
+        <div className="photos-content-div">
+          <div className="photos-content-div-popup"></div>
+        </div>
         <div className="photos-content-div"></div>
         <div className="photos-content-div"></div>
         <div className="photos-content-div"></div>
