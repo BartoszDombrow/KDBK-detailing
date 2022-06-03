@@ -7,7 +7,17 @@
 }
 .contact-map {
   height: 500px;
-  width: 60%;
+  width: 40%;
+}
+
+.contact-list {
+  width: 40%;
+  display: flex;
+}
+
+.contact-list-element {
+  text-align: center;
+  width: calc(100%/3);
 }
 
 @media (max-width: 1080px) {

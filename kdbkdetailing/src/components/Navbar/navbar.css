@@ -13,11 +13,13 @@
   justify-content: center;
   align-items: center;
   color: #FAFAFF;
+  height: 100%;
   width: 30%;
   background-color: #252627;
   font-weight: bold;
   letter-spacing: 3px;
   font-size: 20px;
+  border-bottom: 1px solid #252627;
 }
 
 .logo {
@@ -40,7 +42,7 @@
   height: 0;
   border-top: 80px solid #252627;
   border-right: 140px solid transparent;
-  border-bottom: 0.1px solid #EEF0F2;
+  border-bottom: 0.1px solid #ECEBE4;
 }
 
 .nav-div-3 {
@@ -49,7 +51,7 @@
   align-items: center;
   width: calc(70% - 80px);
   font-size: 36px;
-
+  border-bottom: 0.1px solid #ECEBE4;
 }
 
 ol {
@@ -62,7 +64,7 @@ ol {
 
 .nav-li {
   color: #252627;
-  font-size: 20px;
+  font-size: 16px;
   list-style: none;
   cursor: pointer;
   font-weight: lighter;

@@ -3,6 +3,81 @@ import './list.css';
 
 const List = () => {
   const items = [
+    
+    {
+      title: 'Pranie standard',
+      key: 'title',
+      price: 'Od 100 zł',
+      elements: [
+        {
+          text: '- Pranie fotela kierowcy',
+          key: 'text'
+        },
+        {
+          text: '- Pranie fotela pasażera',
+          key: 'text'
+        },
+        {
+          text: '- Pranie tylnej kanapy',
+          key: 'text'
+        }
+      ]
+    },
+    {
+      title: 'Pranie premium',
+      key: 'title',
+      price: 'Od 150 zł',
+      elements: [
+        {
+          text: '- Pranie fotela kierowcy',
+          key: 'text'
+        },
+        {
+          text: '- Pranie fotela pasażera',
+          key: 'text'
+        },
+        {
+          text: '- Pranie tylnej kanapy',
+          key: 'text'
+        },
+        {
+          text: '- Pranie tapicerki drzwi',
+          key: 'text'
+        }
+      ]
+    },
+    {
+      title: 'Pranie exclusive',
+      key: 'title',
+      price: 'Od 200 zł',
+      elements: [
+        {
+          text: '- Pranie fotela kierowcy',
+          key: 'text'
+        },
+        {
+          text: '- Pranie fotela pasażera',
+          key: 'text'
+        },
+        {
+          text: '- Pranie tylnej kanapy',
+          key: 'text'
+        },
+        {
+          text: '- Pranie tapicerki drzwi',
+          key: 'text'
+        },
+        {
+          text: '- Pranie podłogi',
+          key: 'text'
+        },
+        {
+          text: '- Pranie bagażnika',
+          key: 'text'
+        },
+        
+      ]
+    },
     {
       title: 'Mycie klasyczne',
       price: 'Od 100 zł',
@@ -218,79 +293,6 @@ const List = () => {
         }
       ]
     },
-    {
-      title: 'Pranie standard',
-      key: 'title',
-      price: 'Od 100 zł',
-      elements: [
-        {
-          text: '- Pranie fotela kierowcy',
-          key: 'text'
-        },
-        {
-          text: '- Pranie fotela pasażera',
-          key: 'text'
-        },
-        {
-          text: '- Pranie tylnej kanapy',
-          key: 'text'
-        }
-      ]
-    },
-    {
-      title: 'Pranie premium',
-      key: 'title',
-      price: 'Od 150 zł',
-      elements: [
-        {
-          text: '- Pranie fotela kierowcy',
-          key: 'text'
-        },
-        {
-          text: '- Pranie fotela pasażera',
-          key: 'text'
-        },
-        {
-          text: '- Pranie tylnej kanapy',
-          key: 'text'
-        },
-        {
-          text: '- Pranie tapicerki drzwi',
-          key: 'text'
-        }
-      ]
-    },
-    {
-      title: 'Pranie exclusive',
-      key: 'title',
-      price: 'Od 200 zł',
-      elements: [
-        {
-          text: '- Pranie fotela kierowcy',
-          key: 'text'
-        },
-        {
-          text: '- Pranie fotela pasażera',
-          key: 'text'
-        },
-        {
-          text: '- Pranie tylnej kanapy',
-          key: 'text'
-        },
-        {
-          text: '- Pranie tapicerki drzwi',
-          key: 'text'
-        },
-        {
-          text: '- Pranie podłogi',
-          key: 'text'
-        },
-        {
-          text: '- Pranie bagażnika',
-          key: 'text'
-        }
-      ]
-    }
   ];
   return (
     <div className="list-wrapper">

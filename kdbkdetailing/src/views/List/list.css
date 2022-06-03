@@ -1,44 +1,43 @@
 .list-wrapper {
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
+  justify-content: center;
   min-height: 100vh;
   padding: 40px;
+  background-color: #FAFAFF;
+  line-height: 1.6;
+  letter-spacing: 1.2px;
+  word-spacing: 2px;
 }
 
 .list-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 33%;
+  width: 25%;
   letter-spacing: 1px;
   text-align: center;
-  padding: 20px 30px;
+  padding: 20px 15px;
+  margin: 6px;
   list-style-type: none;
-}
-
-.list-container:nth-child(4) {
-  width: 50%;
-}
-
-.list-container:nth-child(5) {
-  width: 50%;
+  border: 0.1px solid #ECEBE4;
 }
 
 .title {
   align-self: center;
   font-size: 24px;
   font-weight: lighter;
-  padding: 14px 24px;
-  border-radius: 30px;
-  border: 1px solid black;
+  text-transform: uppercase;
+  letter-spacing: 6px;
 }
 
 .price {
   align-self: center;
   font-style: italic;
   font-weight: lighter;
-  margin: 8px 0px;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-bottom: 8px;
+  margin-top: -2px;
 }
 
 .listElement {
