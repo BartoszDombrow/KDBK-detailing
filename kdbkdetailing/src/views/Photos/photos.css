@@ -32,7 +32,7 @@
 .photos-content-div {
   position: relative;
   overflow: hidden;
-  width: calc(33% - 12px);
+  width: 25%;
   height: 400px;
   margin: 6px;
   padding: 10px 0;
@@ -43,6 +43,7 @@
 
 .photos-content-div-overflow {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   position: absolute;
@@ -53,6 +54,7 @@
   left: 100%;
   width: 40%;
   height: 100%;
+  padding: 10px 15px;
   background-color: white;
 }
 
@@ -68,9 +70,18 @@
 .photos-content-div:hover {
   transition: 0.7s ease-in-out;
 }
-.photos-content-div:hover .photos-p {
-  display: inline;
+
+.photos-content-header {
+  font-size: 24px;
+  text-align: center;
 }
+
+.photos-content-p {
+  margin-top: 20px;
+  font-size: 16px;
+  text-align: center;
+}
+
 .photos-content-div:nth-child(1) {
   background-image: url(../../assets/images/jag-backround.jpg);
   background-size: cover;
@@ -81,7 +92,6 @@
   background-image: url(../../assets/images/passat-background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-y: -150px;
 }
 
 @media (max-width: 1080px) {
