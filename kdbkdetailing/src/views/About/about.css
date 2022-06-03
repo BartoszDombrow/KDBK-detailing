@@ -46,8 +46,9 @@
   }
 
   .content-about {
-    min-height: 120vh;
+    min-height: 160vh;
     width: 100%;
+    background-color: #eef0f2;
   }
 
   .about-us {

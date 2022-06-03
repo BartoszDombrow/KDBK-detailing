@@ -98,6 +98,7 @@
 
 @media (max-width: 1080px) {
   .offer-container {
+    min-height: 100vh;
     padding: 60px 10px;
   }
   .offer-content {
@@ -108,6 +109,9 @@
 
   .offer-content-div {
     width: 100%;
+  }
+  .offer-content-div:last-child {
+    padding-bottom: 60px;
   }
   .offer-p {
     font-size: 18px;
