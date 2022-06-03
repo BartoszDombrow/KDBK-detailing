@@ -4,7 +4,7 @@
   justify-content: center;
   min-height: 100vh;
   padding: 40px;
-  background-color: #FAFAFF;
+  background-color: #eef0f2;
   line-height: 1.6;
   letter-spacing: 1.2px;
   word-spacing: 2px;
@@ -19,7 +19,7 @@
   padding: 20px 15px;
   margin: 6px;
   list-style-type: none;
-  border: 0.1px solid #ECEBE4;
+  border: 0.1px solid #ecebe4;
 }
 
 .title {
